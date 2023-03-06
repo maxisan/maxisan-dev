@@ -2,13 +2,13 @@
   {
     "id": "1",
     "name": "linkedin",
-    "icon": "SiLinkedin",
+    "icon": "AiFillLinkedin",
     "url": "https://www.linkedin.com/in/maxisan/"
   },
   {
     "id": "2",
     "name": "github",
-    "icon":"SiGithub",
+    "icon":"AiFillGithub",
     "url": "https://github.com/maxisan"
   }
 ]

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { WithChildren } from 'types';
+import { WithChildren } from 'src/types';
 
 interface Props extends WithChildren {
   col?: string;

@@ -10,3 +10,10 @@ export interface ISocialMedia {
   icon: string;
   url: string;
 }
+
+export interface IMenuItem {
+  id: string,
+  name: string,
+  icon: string,
+  link: string
+}

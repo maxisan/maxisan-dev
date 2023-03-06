@@ -27,7 +27,7 @@ export const AppContainer = styled.div`
   overflow: hidden;
   grid-template-rows: 3rem 1fr;
   grid-template-areas: 'header header header header header header header header header header header header'
-                       'nav nav main main main main main main main main main main';
+                       'nav main main main main main main main main main main main';
 
   
 `
