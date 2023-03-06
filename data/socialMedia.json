@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": "linkedin",
+    "icon": "SiLinkedin",
+    "url": "https://www.linkedin.com/in/maxisan/"
+  },
+  {
+    "id": "2",
+    "name": "github",
+    "icon":"SiGithub",
+    "url": "https://github.com/maxisan"
+  }
+]

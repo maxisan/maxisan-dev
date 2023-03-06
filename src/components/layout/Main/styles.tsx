@@ -12,26 +12,22 @@ export const Background = styled.div`
   background-image: url('/assets/assassins.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  filter: blur(16px);
   z-index: -1;
-`
+  `
 
 export const AppContainer = styled.div`
+  backdrop-filter: blur(5px);
   height: 90vh;
-  width: 95vw;
+  width: min(95vw, 64rem);
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 3rem 1fr 1fr;
   gap: 1rem;
   padding: 2rem;
   border-radius: 2rem;
   background-color: #00000075;
   overflow: hidden;
-`
+  grid-template-rows: 3rem 1fr;
+  grid-template-areas: 'header header header header header header header header header header header header'
+                       'nav nav main main main main main main main main main main';
 
-export const MainContent = styled.main`
-  grid-column: 2 / 13;
-  grid-row: 2 / 4;
+  
 `
-
-// 041319 Box color
