@@ -1,5 +1,4 @@
-import React, { ReactNode } from 'react'
-import BrandIcon from '../../../shared/BrandIcon'
+import BrandIcon from '@shared/Icon';
 
 interface Props {
   icon: string;

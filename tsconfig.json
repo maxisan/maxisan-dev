@@ -16,10 +16,12 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "types*": ["src/types/*"],
-      "@shared*": ["src/components/shared/*"]
+      "types/*": ["src/types/*"],
+      "components/*": ["src/components/*"],
+      "@shared/*": ["src/components/shared/*"]
+
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/shared/BrandIcon.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/shared/Icon.jsx"],
   "exclude": ["node_modules"]
 }

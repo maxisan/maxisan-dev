@@ -1,11 +1,11 @@
 import React from "react";
-import * as Brands from "react-icons/si";
+import * as Brands from "react-icons/ai";
 
-const BrandIcon = ({ iconName }) => {
+const Icon = ({ iconName }) => {
   const baseIcon = Brands[iconName]
   if (!baseIcon) return null
 
   return React.createElement(baseIcon);
 };
 
-export default BrandIcon
+export default Icon

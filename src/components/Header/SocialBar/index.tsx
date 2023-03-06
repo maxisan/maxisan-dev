@@ -1,7 +1,6 @@
-import React, { ReactNode } from 'react'
-import { ISocialMedia } from 'types'
-import { MainContainer } from './styles'
+import { ISocialMedia } from 'types/index'
 import SocialMedia from './SocialMedia'
+import { MainContainer } from './styles'
 
 interface Props {
   medias: ISocialMedia[]
