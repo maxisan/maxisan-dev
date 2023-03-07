@@ -17,7 +17,7 @@ export const MainContainer = styled.li<{ active: boolean }>`
 
   &:hover {
     color: ${({ theme }) => theme.colors.accent};
-    background-color: ${({ theme }) => theme.colors['background-lighter']};
+    background-color: ${({ theme }) => theme.colors['surface-lighter']};
     cursor: pointer;
   }
 `
