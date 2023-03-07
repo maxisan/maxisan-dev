@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "home",
+    "icon": "AiOutlineHome",
+    "link": "/"
+  },
+  {
+    "id": "2",
+    "name": "projects",
+    "icon": "AiOutlineLaptop",
+    "link": "/projects"
+  },
+  {
+    "id": "3",
+    "name": "about",
+    "icon": "AiOutlineSmile",
+    "link": "/about"
+  },
+  {
+    "id": "4",
+    "name": "contact",
+    "icon": "AiOutlineMail",
+    "link": "/contact"
+  }
+]

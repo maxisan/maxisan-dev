@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "title": "Project example 01",
+    "shortDescription": "Description example",
+    "fullDescription": "A more longe description of the project, this have to say a lot of things",
+    "featuredImage": "https://picsum.photos/seed/01/600/800",
+    "thumbnail": "https://picsum.photos/seed/01/200/300",
+    "deployUrl": "https://deploy.example.com",
+    "repositoryUrl": "https://repository.url.com",
+    "category": "challenge",
+    "techs": ["react", "next", "styled-components"],
+    "featured": true
+  },
+  {
+    "id": "2",
+    "title": "Project example 02",
+    "shortDescription": "Description example",
+    "fullDescription": "A more longe description of the project, this have to say a lot of things",
+    "featuredImage": "https://picsum.photos/seed/02/600/800",
+    "thumbnail": "https://picsum.photos/seed/02/200/300",
+    "deployUrl": "https://deploy.example.com",
+    "repositoryUrl": "https://repository.url.com",
+    "category": "challenge",
+    "techs": ["react", "next", "styled-components"],
+    "featured": true
+  },
+  {
+    "id": "3",
+    "title": "Project example 03",
+    "shortDescription": "Description example",
+    "fullDescription": "A more longe description of the project, this have to say a lot of things",
+    "featuredImage": "https://picsum.photos/seed/03/600/800",
+    "thumbnail": "https://picsum.photos/seed/03/200/300",
+    "deployUrl": "https://deploy.example.com",
+    "repositoryUrl": "https://repository.url.com",
+    "category": "challenge",
+    "techs": ["react", "next", "styled-components"],
+    "featured": false
+  },
+  {
+    "id": "4",
+    "title": "Project example 04",
+    "shortDescription": "Description example",
+    "fullDescription": "A more longe description of the project, this have to say a lot of things",
+    "featuredImage": "https://picsum.photos/seed/04/600/800",
+    "thumbnail": "https://picsum.photos/seed/04/200/300",
+    "deployUrl": "https://deploy.example.com",
+    "repositoryUrl": "https://repository.url.com",
+    "category": "challenge",
+    "techs": ["react", "next", "styled-components"],
+    "featured": false
+  },
+  {
+    "id": "5",
+    "title": "Project example 05",
+    "shortDescription": "Description example",
+    "fullDescription": "A more longe description of the project, this have to say a lot of things",
+    "featuredImage": "https://picsum.photos/seed/05/600/800",
+    "thumbnail": "https://picsum.photos/seed/05/200/200",
+    "deployUrl": "https://deploy.example.com",
+    "repositoryUrl": "https://repository.url.com",
+    "category": "challenge",
+    "techs": ["react", "next", "styled-components"],
+    "featured": false
+  }
+]
