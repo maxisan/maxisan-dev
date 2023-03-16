@@ -1,4 +1,4 @@
-import BrandIcon from '@shared/Icon';
+import Icon from '@shared/Icon';
 
 interface Props {
   icon: string;
@@ -9,7 +9,7 @@ interface Props {
 const SocialMedia = ({icon, url, name}: Props) => {
   return (
     <a href={url} aria-label={name} target='_blank'>
-      <BrandIcon iconName={icon} />
+      <Icon iconName={icon} collection='ai' />
     </a>
   )
 }

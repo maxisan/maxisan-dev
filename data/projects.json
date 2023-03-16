@@ -9,7 +9,30 @@
     "deployUrl": "https://deploy.example.com",
     "repositoryUrl": "https://repository.url.com",
     "category": "challenge",
-    "techs": ["react", "next", "styled-components"],
+    "techs": [
+      {
+        "id": "1",
+        "name": "ReactJs",
+        "icon": "SiReact",
+        "backgroundColor": "rgb(0, 216, 255)",
+        "color": "dark"
+      },
+      {
+        "id": "2",
+        "name": "NextJs",
+        "icon": "SiNextdotjs",
+        "backgroundColor": "rgb(17, 17, 17)",
+        "color": "light"
+      },
+      {
+        "id": "3",
+        "name": "Styled Components",
+        "icon": "SiStyledcomponents",
+        "backgroundColor": "rgb(221, 111, 147)",
+        "color": "dark"
+      }
+    ],
+    "stack": "Frontend",
     "featured": true
   },
   {
@@ -22,7 +45,30 @@
     "deployUrl": "https://deploy.example.com",
     "repositoryUrl": "https://repository.url.com",
     "category": "challenge",
-    "techs": ["react", "next", "styled-components"],
+    "stack": "Frontend",
+    "techs": [
+      {
+        "id": "1",
+        "name": "ReactJs",
+        "icon": "SiReact",
+        "backgroundColor": "rgb(0, 216, 255)",
+        "color": "dark"
+      },
+      {
+        "id": "2",
+        "name": "NextJs",
+        "icon": "SiNextdotjs",
+        "backgroundColor": "rgb(17, 17, 17)",
+        "color": "light"
+      },
+      {
+        "id": "3",
+        "name": "Styled Components",
+        "icon": "SiStyledcomponents",
+        "backgroundColor": "rgb(221, 111, 147)",
+        "color": "dark"
+      }
+    ],
     "featured": true
   },
   {
@@ -35,7 +81,30 @@
     "deployUrl": "https://deploy.example.com",
     "repositoryUrl": "https://repository.url.com",
     "category": "challenge",
-    "techs": ["react", "next", "styled-components"],
+    "stack": "Fullstack",
+    "techs": [
+      {
+        "id": "1",
+        "name": "ReactJs",
+        "icon": "SiReact",
+        "backgroundColor": "rgb(0, 216, 255)",
+        "color": "dark"
+      },
+      {
+        "id": "2",
+        "name": "NextJs",
+        "icon": "SiNextdotjs",
+        "backgroundColor": "rgb(17, 17, 17)",
+        "color": "light"
+      },
+      {
+        "id": "3",
+        "name": "Styled Components",
+        "icon": "SiStyledcomponents",
+        "backgroundColor": "rgb(221, 111, 147)",
+        "color": "dark"
+      }
+    ],
     "featured": false
   },
   {
@@ -48,7 +117,30 @@
     "deployUrl": "https://deploy.example.com",
     "repositoryUrl": "https://repository.url.com",
     "category": "challenge",
-    "techs": ["react", "next", "styled-components"],
+    "stack": "Frontend",
+    "techs": [
+      {
+        "id": "1",
+        "name": "ReactJs",
+        "icon": "SiReact",
+        "backgroundColor": "rgb(0, 216, 255)",
+        "color": "dark"
+      },
+      {
+        "id": "2",
+        "name": "NextJs",
+        "icon": "SiNextdotjs",
+        "backgroundColor": "rgb(17, 17, 17)",
+        "color": "light"
+      },
+      {
+        "id": "3",
+        "name": "Styled Components",
+        "icon": "SiStyledcomponents",
+        "backgroundColor": "rgb(221, 111, 147)",
+        "color": "dark"
+      }
+    ],
     "featured": false
   },
   {
@@ -61,7 +153,30 @@
     "deployUrl": "https://deploy.example.com",
     "repositoryUrl": "https://repository.url.com",
     "category": "challenge",
-    "techs": ["react", "next", "styled-components"],
+    "stack": "Backend",
+    "techs": [
+      {
+        "id": "1",
+        "name": "ReactJs",
+        "icon": "SiReact",
+        "backgroundColor": "rgb(0, 216, 255)",
+        "color": "dark"
+      },
+      {
+        "id": "2",
+        "name": "NextJs",
+        "icon": "SiNextdotjs",
+        "backgroundColor": "rgb(17, 17, 17)",
+        "color": "light"
+      },
+      {
+        "id": "3",
+        "name": "Styled Components",
+        "icon": "SiStyledcomponents",
+        "backgroundColor": "rgb(221, 111, 147)",
+        "color": "dark"
+      }
+    ],
     "featured": false
   }
 ]

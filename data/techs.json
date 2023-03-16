@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "ReactJs",
+    "icon": "SiReact",
+    "backgroundColor": "rgb(0, 216, 255)",
+    "color": "dark"
+  },
+  {
+    "id": "2",
+    "name": "NextJs",
+    "icon": "SiNextdotjs",
+    "backgroundColor": "rgb(17, 17, 17)",
+    "color": "light"
+  },
+  {
+    "id": "3",
+    "name": "Styled Components",
+    "icon": "SiStyledcomponents",
+    "backgroundColor": "rgb(221, 111, 147)",
+    "color": "dark"
+  }
+]

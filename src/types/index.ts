@@ -4,6 +4,8 @@ export type WithChildren = {
   children: ReactNode
 }
 
+export type Stack = 'Frontend' | 'Backend' | 'Fullstack'
+
 export interface ISocialMedia {
   id: string;
   name: string;
@@ -16,4 +18,12 @@ export interface IMenuItem {
   name: string,
   icon: string,
   link: string
+}
+
+export interface ITech {
+  id: string;
+  name: string;
+  icon: string;
+  backgroundColor: string;
+  color: string;
 }
