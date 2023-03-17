@@ -1,10 +1,10 @@
-import { ReactNode } from "react"
+import { ReactNode } from "react";
 
 export type WithChildren = {
   children: ReactNode
 }
 
-export type Stack = 'Frontend' | 'Backend' | 'Fullstack'
+export type Stack = 'front-end' | 'back-end' | 'full stack'
 
 export interface ISocialMedia {
   id: string;

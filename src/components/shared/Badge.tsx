@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const Badge = styled.div`
   font-size: 0.8rem;
@@ -8,6 +8,9 @@ const Badge = styled.div`
   align-items: center;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+  background-color: ${({theme}) => theme.colors.surface}b0;
+  color: ${({theme}) => theme.colors.accent};
+  text-transform: uppercase;
 `
 
 export default Badge

@@ -1,38 +1,66 @@
 [
   {
     "id": "1",
-    "title": "Project example 01",
-    "shortDescription": "Description example",
-    "fullDescription": "A more longe description of the project, this have to say a lot of things",
+    "title": "BeerUp",
+    "shortDescription": "Solución Full Stack del desafío técnico propuesto por Santander.",
+    "fullDescription": "El desafío propone la realización de una App que permita crear Meetups y recabar datos para evitar el mayor de los problemas: que falte birra. La aplicación se vincula con una API del clima para poder calcular la cantidad de cerveza ideal que debemos comprar teniendo en cuenta la temperatura del día de la meetUp y además la cantidad de asistentes.",
     "featuredImage": "https://picsum.photos/seed/01/600/800",
-    "thumbnail": "https://picsum.photos/seed/01/200/300",
-    "deployUrl": "https://deploy.example.com",
-    "repositoryUrl": "https://repository.url.com",
+    "thumbnail": "/assets/images/thumbnails/beerup.png",
+    "deployUrl": "https://beer-up.web.app/",
+    "repositoryUrl": "https://github.com/maxisan/beerup",
     "category": "challenge",
     "techs": [
       {
         "id": "1",
-        "name": "ReactJs",
+        "name": "React",
         "icon": "SiReact",
         "backgroundColor": "rgb(0, 216, 255)",
         "color": "dark"
       },
       {
         "id": "2",
-        "name": "NextJs",
-        "icon": "SiNextdotjs",
+        "name": "Tailwind",
+        "icon": "SiTailwindcss",
+        "backgroundColor": "rgb(248,250,252)",
+        "color": "dark"
+      },
+      {
+        "id": "3",
+        "name": "Node",
+        "icon": "SiNodedotjs",
+        "backgroundColor": "rgb(221, 111, 147)",
+        "color": "dark"
+      },
+      {
+        "id": "4",
+        "name": "Express",
+        "icon": "SiExpress",
+        "backgroundColor": "rgb(0, 216, 255)",
+        "color": "dark"
+      },
+      {
+        "id": "5",
+        "name": "Sequelize",
+        "icon": "SiSequelize",
         "backgroundColor": "rgb(17, 17, 17)",
         "color": "light"
       },
       {
-        "id": "3",
-        "name": "Styled Components",
-        "icon": "SiStyledcomponents",
+        "id": "6",
+        "name": "PostgreSQL",
+        "icon": "SiPostgresql",
         "backgroundColor": "rgb(221, 111, 147)",
+        "color": "dark"
+      },
+      {
+        "id": "7",
+        "name": "Passport",
+        "icon": "SiPassport",
+        "backgroundColor": "rgb(0, 216, 255)",
         "color": "dark"
       }
     ],
-    "stack": "Frontend",
+    "stack": "full stack",
     "featured": true
   },
   {
@@ -45,7 +73,7 @@
     "deployUrl": "https://deploy.example.com",
     "repositoryUrl": "https://repository.url.com",
     "category": "challenge",
-    "stack": "Frontend",
+    "stack": "front-end",
     "techs": [
       {
         "id": "1",
@@ -81,7 +109,7 @@
     "deployUrl": "https://deploy.example.com",
     "repositoryUrl": "https://repository.url.com",
     "category": "challenge",
-    "stack": "Fullstack",
+    "stack": "full stack",
     "techs": [
       {
         "id": "1",
@@ -117,7 +145,7 @@
     "deployUrl": "https://deploy.example.com",
     "repositoryUrl": "https://repository.url.com",
     "category": "challenge",
-    "stack": "Frontend",
+    "stack": "front-end",
     "techs": [
       {
         "id": "1",
@@ -153,7 +181,7 @@
     "deployUrl": "https://deploy.example.com",
     "repositoryUrl": "https://repository.url.com",
     "category": "challenge",
-    "stack": "Backend",
+    "stack": "back-end",
     "techs": [
       {
         "id": "1",

@@ -1,10 +1,11 @@
-import { useTranslations } from 'next-intl'
-import React, { useState } from 'react'
-import { ListContainer, MainContainer, Title } from './styles'
 import projects from 'data/projects.json'
-import Thumbnail from './Thumnail'
-import Image from 'next/image'
+import { useTranslations } from 'next-intl'
+import { useState } from 'react'
+import ProjectDesciption from './ProjectDescription'
 import SelectedProject from './SelectedProject'
+import { DescriptionContainer, ListContainer, MainContainer, Title } from './styles'
+import Techs from './Techs'
+import Thumbnail from './Thumnail'
 
 const ProjectList = () => {
   const t = useTranslations('projectList')
@@ -19,9 +20,18 @@ const ProjectList = () => {
           title={project.title}
           image={project.thumbnail}
           onClick={() => setSelectedProject(project)}
+          selected={selectedProject.id === project.id}
         />)}
       </ListContainer>
-      <SelectedProject image={selectedProject.featuredImage} techs={selectedProject.techs}/>
+      <SelectedProject
+        image={selectedProject.featuredImage}
+        stack={selectedProject.stack}
+      >
+        <DescriptionContainer>
+          <ProjectDesciption title={selectedProject.title}>{selectedProject.shortDescription}</ProjectDesciption>
+          <Techs techs={selectedProject.techs} />
+        </DescriptionContainer>
+      </SelectedProject>
       
     </MainContainer>
   )
