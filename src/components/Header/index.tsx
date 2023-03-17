@@ -10,9 +10,9 @@ const Header = () => {
   return (
     <MainContainer>
       <Title>
-        <h2>
+        <h1>
           {t('title')}
-        </h2>
+        </h1>
       </Title>
       <SocialBar medias={medias} />
     </MainContainer>

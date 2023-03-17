@@ -1,3 +1,5 @@
+import ProjectList from 'components/ProjectList'
+import { Box } from 'components/shared/Box'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import HomeLayout from 'src/layout/home'
@@ -11,7 +13,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HomeLayout>
-        
+        <Box area='main'>
+          <ProjectList />
+        </Box>
+        <Box area='profile'>
+          PROFILE
+        </Box>
+        <Box area='featured'>
+          DESTACADO
+        </Box>
       </HomeLayout>
     </>
   )

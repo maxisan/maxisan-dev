@@ -24,7 +24,7 @@ const MenuItem = ({
         onClick={() => setActiveMenuItem(id)}
         aria-label={name}
       >
-        <Icon iconName={icon} />
+        <Icon iconName={icon} collection='ai' />
       </MainContainer>
     </Link>
   )

@@ -1,5 +1,9 @@
 {
   "header": {
     "title": "¡Hola! Soy Maxi. Desarrollador web full-stack"
+  },
+  "projectList": {
+    "title": "Mis últimos projectos",
+    "techStack": "Tech Stack"
   }
 }
