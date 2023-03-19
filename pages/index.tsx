@@ -1,3 +1,4 @@
+import Profile from 'components/Profile'
 import ProjectList from 'components/ProjectList'
 import { Box } from 'components/shared/Box'
 import type { NextPage } from 'next'
@@ -16,9 +17,7 @@ const Home: NextPage = () => {
         <Box area='main'>
           <ProjectList />
         </Box>
-        <Box area='profile'>
-          PROFILE
-        </Box>
+        <Profile />
         <Box area='featured'>
           DESTACADO
         </Box>
