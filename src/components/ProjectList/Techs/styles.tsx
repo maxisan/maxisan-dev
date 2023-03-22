@@ -5,6 +5,7 @@ export const MainContainer = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  align-self: end;
 `
 
 export const Title = styled.h4`

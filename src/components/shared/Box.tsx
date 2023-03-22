@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { WithChildren } from 'src/types';
+import styled from 'styled-components';
 
 interface Props extends WithChildren {
   col?: string;
@@ -7,7 +7,7 @@ interface Props extends WithChildren {
   area?: string;
 }
 
-export const Box = styled.div<Props>`
+export const Box = styled.section<Props>`
   background-color: ${({theme}) => theme.colors.surface};
   grid-column: ${({col}) => col || 'auto'};
   grid-row: ${({row}) => row || 'auto'};

@@ -7,7 +7,3 @@ export const MainContainer = styled.header`
   align-items: center;
   grid-area: header;
 `
-
-export const Title = styled.div`
-  
-`

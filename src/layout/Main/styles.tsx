@@ -25,7 +25,7 @@ export const AppContainer = styled.div`
   border-radius: 2rem;
   background-color: #00000075;
   overflow: hidden;
-  grid-template-rows: 3rem 1fr;
+  grid-template-rows: min-content 1fr;
   grid-template-columns: 5rem repeat(11, 1fr);
   grid-template-areas: 'header header header header header header header header header header header header'
                        'nav content content content content content content content content content content content';

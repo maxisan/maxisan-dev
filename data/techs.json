@@ -19,5 +19,12 @@
     "icon": "SiStyledcomponents",
     "backgroundColor": "rgb(221, 111, 147)",
     "color": "dark"
+  },
+  {
+    "id": "4",
+    "name": "Express",
+    "icon": "SiExpress",
+    "backgroundColor": "rgb(0, 216, 255)",
+    "color": "dark"
   }
 ]

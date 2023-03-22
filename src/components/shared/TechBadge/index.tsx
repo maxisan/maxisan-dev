@@ -2,21 +2,28 @@ import styled from 'styled-components';
 import { ITech } from 'types/index';
 import Icon from '../Icon';
 
-const MainContainer = styled.div<{backgroundColor: string; color: string; }>`
-  font-size: 1.5rem;
-  height: 2rem;
-  width: 2rem;
-  background-color: ${({backgroundColor}) => backgroundColor};
-  color: ${({color, theme}) => color === 'dark' ? theme.colors.surface : theme.colors.font};
+const MainContainer = styled.div<{featured?: boolean}>`
+  font-size: ${({featured}) => featured ? '1.8rem' : '1.2rem'};
+  width: ${({featured}) => featured ? '3rem' : '2rem'};
+  aspect-ratio: 1 / 1;
+  color: ${({theme, featured}) => featured ? theme.colors.badge : theme.colors.font};
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10rem;
+  border-radius: ${({featured}) => featured ? '' : '10rem'};
+  background: ${({featured, theme}) => featured ? 
+    'center / contain no-repeat url("/assets/images/badge.png")' :
+    `${theme.colors.background}b0`
+  };
 `
 
-const TechBadge = ({ name, icon, backgroundColor, color}:ITech) => {
+interface Props extends ITech {
+  featured?: boolean;
+}
+
+const TechBadge = ({ name, icon, featured }:Props) => {
   return (
-    <MainContainer backgroundColor={backgroundColor} color={color}>
+    <MainContainer featured={featured}>
       <Icon collection='si' iconName={icon} />
     </MainContainer>
   )

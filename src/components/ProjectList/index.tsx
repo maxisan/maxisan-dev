@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 import ProjectDesciption from './ProjectDescription'
 import SelectedProject from './SelectedProject'
-import { DescriptionContainer, ListContainer, MainContainer, Title } from './styles'
+import { DescriptionContainer, ListContainer, MainContainer } from './styles'
 import Techs from './Techs'
 import Thumbnail from './Thumnail'
 
@@ -14,7 +14,7 @@ const ProjectList = () => {
   return (
     <MainContainer>
       <ListContainer>
-        <Title>{t('title')}</Title>
+        <h2>{t('title')}</h2>
         {projects.map(project => <Thumbnail 
           key={project.id}
           title={project.title}

@@ -12,5 +12,8 @@
     "experience": "Experiencia",
     "commits": "Commits",
     "years": "Años"
+  },
+  "techStack": {
+    "title": "Stack principal"
   }
 }
