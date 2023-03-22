@@ -9,8 +9,10 @@ const Button = styled.button<{variant?: 'primary' | 'secondary'}>`
   border-radius: 0.5rem;
   font-weight: 700;
   font-size: 0.8rem;
+  transition: all 0.3s;
 
-  &:hover {
+  &:hover, &:focus {
+    color: ${({theme}) => theme.colors.surface.base};
     background-color: ${({theme}) => theme.colors.accent.base};
   }
 `

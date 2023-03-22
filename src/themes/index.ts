@@ -27,7 +27,7 @@ export const defaultTheme: DefaultTheme = {
     },
     accent: {
       base: '#02c39a',
-      dark: '#029c7b',
+      dark: '#013a2e',
       light: '#67dbc2'
     },
     background: {
