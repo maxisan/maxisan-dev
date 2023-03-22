@@ -8,6 +8,7 @@ export const MainContainer = styled.header`
   grid-area: header;
 `
 
-export const Title = styled.div`
-  
+export const Title = styled.h1`
+  font-size: 1.7rem;
+  line-height: 1;
 `

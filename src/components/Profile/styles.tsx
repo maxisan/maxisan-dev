@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const MainContainer = styled(Box)`
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem;
+  padding: 1.5rem;
   align-items: center;
   gap: 0.5rem;
 `

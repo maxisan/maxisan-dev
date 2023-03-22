@@ -1,6 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
-import Image from 'next/image'
+import Image from 'next/image';
+import styled from 'styled-components';
 
 interface Props {
   title: string;
@@ -11,7 +10,7 @@ interface Props {
 
 const MainContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto 1fr;
   gap: 0.5rem;
   height: 4rem;
   align-items: center;

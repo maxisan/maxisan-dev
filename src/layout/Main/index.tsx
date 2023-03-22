@@ -1,12 +1,15 @@
-import React from 'react'
-import { WithChildren } from 'types/index'
-import { AppContainer, Background } from './styles'
+import { WithChildren } from 'types/index';
+import { AppContainer, Background } from './styles';
 
-const MainLayout = ({ children }: WithChildren) => {
+interface Props extends WithChildren {
+  className: string;
+}
+
+const MainLayout = ({ children, className = '' }: Props) => {
   return (
     <>
       <Background />
-      <AppContainer>
+      <AppContainer className={className}>
         {children}
       </AppContainer>
     </>

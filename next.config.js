@@ -1,10 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  swcMinify: true,
-  reactStrictMode: true,
-  compiler: {
-    styledComponents: true,
-  },
   i18n: {
     locales: ['es', 'en', 'pt'],
     defaultLocale: 'en',
@@ -12,6 +7,9 @@ const nextConfig = {
   images: {
     domains: ['picsum.photos'],
   },
+  compiler: {
+    styledComponents: true
+  }
 }
 
 module.exports = nextConfig

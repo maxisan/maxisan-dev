@@ -1,8 +1,7 @@
+import medias from 'data/socialMedia.json'
 import { useTranslations } from 'next-intl'
-import React from 'react'
 import SocialBar from './SocialBar'
 import { MainContainer, Title } from './styles'
-import medias from 'data/socialMedia.json'
 
 
 const Header = () => {
@@ -10,9 +9,7 @@ const Header = () => {
   return (
     <MainContainer>
       <Title>
-        <h1>
-          {t('title')}
-        </h1>
+        {t('title')}
       </Title>
       <SocialBar medias={medias} />
     </MainContainer>

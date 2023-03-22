@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 3fr;
-  padding: 2rem;
+  padding: 1.5rem;
   gap: 1rem;
   height: 100%;
 `
@@ -25,4 +25,5 @@ export const DescriptionContainer = styled.div`
   padding-top: 2rem;
   background: rgb(0,19,15, 0.8);
   background: ${({theme}) => `linear-gradient(0deg, ${theme.colors.background}f0, ${theme.colors.background}c0, ${theme.colors.background}90, transparent)`};
+  gap: 0.5rem;
 `
