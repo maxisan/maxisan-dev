@@ -17,14 +17,14 @@ export const Background = styled.div`
 
 export const AppContainer = styled.div`
   backdrop-filter: blur(5px);
-  height: 90vh;
-  width: min(95vw, 64rem);
+  max-height: 95vh;
+  width: min(98vw, 64rem);
   display: grid;
   gap: 1rem;
   padding: 2rem;
   border-radius: 2rem;
   background-color: #00000075;
-  overflow: hidden;
+  overflow: auto;
   grid-template-rows: min-content 1fr;
   grid-template-columns: 5rem repeat(11, 1fr);
   grid-template-areas: 'header header header header header header header header header header header header'
