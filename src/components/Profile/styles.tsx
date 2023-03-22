@@ -38,7 +38,7 @@ export const DataContainer = styled.div`
 
   .data {
     font-size: 1rem;
-    color: ${({theme}) => theme.colors.accent};
+    color: ${({theme}) => theme.colors.accent.base};
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0.3rem;

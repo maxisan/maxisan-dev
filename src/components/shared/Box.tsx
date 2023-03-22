@@ -8,7 +8,7 @@ interface Props extends WithChildren {
 }
 
 export const Box = styled.section<Props>`
-  background-color: ${({theme}) => theme.colors.surface};
+  background-color: ${({theme}) => theme.colors.surface.base};
   grid-column: ${({col}) => col || 'auto'};
   grid-row: ${({row}) => row || 'auto'};
   width: 100%;
