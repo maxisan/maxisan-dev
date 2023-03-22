@@ -7,6 +7,7 @@ export interface Theme {
     accent: string;
     background: string;
     'surface-lighter': string;
+    badge: string;
   }
 }
 
@@ -16,6 +17,7 @@ export const defaultTheme: DefaultTheme = {
     surface: '#00130f',
     accent: '#02c39a',
     background: '#000000',
-    'surface-lighter': '#00271e'
+    'surface-lighter': '#00271e',
+    badge: '#806503'
   }
 }

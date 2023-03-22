@@ -1,6 +1,7 @@
 import Profile from 'components/Profile'
 import ProjectList from 'components/ProjectList'
 import { Box } from 'components/shared/Box'
+import TechStack from 'components/TechStack'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import HomeLayout from 'src/layout/home'
@@ -18,9 +19,7 @@ const Home: NextPage = () => {
           <ProjectList />
         </Box>
         <Profile />
-        <Box area='featured'>
-          DESTACADO
-        </Box>
+        <TechStack />
       </HomeLayout>
     </>
   )

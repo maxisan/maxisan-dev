@@ -3,16 +3,16 @@ import { ITech } from 'types/index';
 import Icon from '../Icon';
 
 const MainContainer = styled.div<{featured?: boolean}>`
-  font-size: 1.2rem;
-  height: 2rem;
-  width: 2rem;
-  color: ${({theme}) => theme.colors.font};
+  font-size: ${({featured}) => featured ? '1.8rem' : '1.2rem'};
+  width: ${({featured}) => featured ? '3rem' : '2rem'};
+  aspect-ratio: 1 / 1;
+  color: ${({theme, featured}) => featured ? theme.colors.badge : theme.colors.font};
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: ${({featured}) => featured ? '' : '10rem'};
   background: ${({featured, theme}) => featured ? 
-    'center / contain url("/assets/images/badge.png")' :
+    'center / contain no-repeat url("/assets/images/badge.png")' :
     `${theme.colors.background}b0`
   };
 `

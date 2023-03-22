@@ -8,10 +8,6 @@ export const MainContainer = styled.div`
   height: 100%;
 `
 
-export const Title = styled.h2`
-  font-size: 1.2rem;
-`
-
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;

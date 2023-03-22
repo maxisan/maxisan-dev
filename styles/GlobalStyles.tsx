@@ -24,6 +24,15 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
 
+  h1 {
+    font-size: 1.7rem;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
 `
 
 export default GlobalStyles;
