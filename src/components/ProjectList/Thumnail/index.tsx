@@ -25,7 +25,7 @@ const ImageContainer = styled.div<{selected: boolean}>`
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
-  ${({selected, theme}) => selected && 'border: 2px solid ' + theme.colors.accent + ';'}
+  ${({selected, theme}) => selected && 'border: 2px solid ' + theme.colors.accent.base + ';'}
 `
 
 const Thumbnail = ({title, image, onClick, selected}: Props) => {

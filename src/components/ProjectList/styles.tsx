@@ -20,6 +20,6 @@ export const DescriptionContainer = styled.div`
   padding: 1rem;
   padding-top: 2rem;
   background: rgb(0,19,15, 0.8);
-  background: ${({theme}) => `linear-gradient(0deg, ${theme.colors.background}f0, ${theme.colors.background}c0, ${theme.colors.background}90, transparent)`};
+  background: ${({theme}) => `linear-gradient(0deg, ${theme.colors.background.base}f0, ${theme.colors.background.base}c0, ${theme.colors.background.base}90, transparent)`};
   gap: 0.5rem;
 `

@@ -8,8 +8,8 @@ const Badge = styled.div`
   align-items: center;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  background-color: ${({theme}) => theme.colors.surface}b0;
-  color: ${({theme}) => theme.colors.accent};
+  background-color: ${({theme}) => theme.colors.surface.base}b0;
+  color: ${({theme}) => theme.colors.accent.base};
   text-transform: uppercase;
 `
 

@@ -9,7 +9,7 @@ export const MainContainer = styled(Box)`
   `
 
 export const Title = styled.h2`
-  color: ${({theme}) => theme.colors.accent};
+  color: ${({theme}) => theme.colors.accent.base};
   text-transform: uppercase;
   `
 

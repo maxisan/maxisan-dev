@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
     align-items: center;
     justify-content: center;
     height: 100vh;
-    color: ${({theme}) => theme.colors.font};
+    color: ${({theme}) => theme.colors.font.base};
   }
 
   a {

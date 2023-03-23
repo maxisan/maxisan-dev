@@ -17,5 +17,5 @@ export const SeeMore = styled.a`
   font-size: 0.9rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: ${({theme}) => theme.colors.accent};
+  color: ${({theme}) => theme.colors.accent.base};
 `
