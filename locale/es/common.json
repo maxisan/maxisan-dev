@@ -1,0 +1,19 @@
+{
+  "header": {
+    "title": "¡Hola! Soy Maxi. Desarrollador web full-stack"
+  },
+  "projectList": {
+    "title": "Mis últimos proyectos",
+    "techStack": "Tech Stack"
+  },
+  "profile": {
+    "name": "Maximiliano Sanchez",
+    "tag": "@maxisan",
+    "experience": "Experiencia",
+    "commits": "Commits",
+    "years": "Años"
+  },
+  "techStack": {
+    "title": "Mi stack principal"
+  }
+}
