@@ -2,7 +2,7 @@ import Profile from 'components/Profile'
 import ProjectList from 'components/ProjectList'
 import { Box } from 'components/shared/Box'
 import TechStack from 'components/TechStack'
-import type { NextPage } from 'next'
+import type { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import HomeLayout from 'src/layout/home'
 
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
 
 export default Home
 
-export async function getStaticProps(context: any) {
+export const getStaticProps: GetStaticProps = async (context) => {
   return {
     props: {
       // You can get the messages from anywhere you like. The recommended
