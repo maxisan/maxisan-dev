@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import type { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 
 const Home: NextPage = () => {
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 
 export default Home
 
-export async function getStaticProps(context: any) {
+export const getStaticProps: GetStaticProps = async (context) => {
   return {
     props: {
       // You can get the messages from anywhere you like. The recommended
